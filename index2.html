@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pagina Web</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<style type="text/css">
+	.navbar{
+		margin-bottom: 0px;
+	}
+
+	.jumbotron{
+		background-color: lightblue;
+		color: #fff;
+		padding: 20px;
+ 
+	}
+	.main-container{
+		margin-top: 20px;
+		margin-bottom: 20px;
+
+	}
+	.post{
+		padding-bottom: 20px;
+		padding-top: 20px;
+		border-bottom:1px solid #999;
+		background-color: white;
+	}
+	.post .thumb{
+		margin-right: 10px;
+		width: 40%;
+	}
+	 .post .thumb img{
+	 	width: 100%;
+	 }
+
+	article{
+		padding: 10px;
+	}
+
+	 .post .button-container{
+	 	width: 100%;
+	 }
+
+	 @media all and (max-width: 768px){
+	 	.post .thumb{
+	 		width: 100%;
+	 		margin-bottom: 20px;
+	 		margin-right: 0px;
+	 	}
+	 }
+
+	 img{
+			border-radius: 25px;
+			padding: 15px;
+			height: 300px;
+
+		}
+
+
+		.form{
+			margin-top: 20px;
+			background-color: white;
+			padding: 20px;
+			width: 400px;
+		}
+
+		
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ max-width: 280px;
+  text-align: center;
+  font-family:arial;
+  background-color:lightblue;
+}
+
+
+		 
+
+	
+
+@media screen and (max-width: 768px) {
+  .col-md-3 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+
+  }
+}
+
+.list-group{
+	margin-right: 20px;
+}
+
+aside{
+	margin-top: 40px;
+
+}
+
+
+.container{
+	margin:20px;
+	
+}
+
+
+</style>
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion">
+					<span class="sr-only">Desplegar/ Ocultar Menu</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand ">Brooklyn Vibes Events Co</a> 
+			</div>
+			<!--Inicia Menu-->
+			<div class="collapse navbar-collapse" id="navegacion">
+				<ul class="nav navbar-nav">
+					<li class="active" ><a href="#">Blog</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+							Partners<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="http://brooklyn.news12.com/" target="_blank">Brooklyn News</a></li>
+							<li class="divider"></li>
+							<li><a href="https://www.brooklynbridgepark.org/" target="_blank">Brooklyn Bridge Park’s</a></li>
+						</ul>
+					</li>
+					<li ><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+<!--Aqui va el jumbotron-->
+<section class="jumbotron">
+	<div class="container">
+		<h1 style="letter-spacing: 0.3em;">Brooklyn Film Festival</h1>
+	</div>
+		</section>
+		<div class="miga-de-pan">
+				<ol class="breadcrumb">
+					<li> <a href="#">Home</a></li>
+					<li> <a href="#film">Films</a></li>
+					<li class="active"> Contact</li>
+				</ol>
+			</div>
+			<div class="container">
+				<article class="post clearfix">
+				<a href="#" class="thumb pull-left">
+					<img src="https://www.adorama.com/alc/wp-content/uploads/2017/08/shutterstock_479963272-825x465.jpg" class="img-thumbnail">	
+				</a>
+				<h2  style="color: #4682B4;">About Brooklyn Film Festival</h2>
+				<p><span class="post-fecha">July 31th</span> <span class="post-autor"><a href="#">
+					Luciana Melgar</a></span></p>
+					<p class="post-content text-justify" style="font-size: 18px;">
+						<strong>Brooklyn Film Festival </strong> is a summer must that has earned a large and loyal following. Since its launch in 2000, we’ve wowed, entertained, thrilled, and pulled at the heartstrings of over 500,000 moviegoers, making our program one of New York City’s favorite summer film series. Movies With A View takes place every Thursday evening in July and August. There is no better place to be on a hot summer night than watching a classic film and enjoying the breeze off of the East River from Harbor View Lawn with the dazzling Manhattan skyline before you , in this 2019 we are coming with great movies for all ages in diferents schedules <em> We will be hosting around five thousand people so make sure you fill up the form to make sure you are coming </em> 
+						Brooklyn Film Festival is a summer must that has earned a large and loyal following. Since its launch in 2000, we’ve wowed, entertained, thrilled, and pulled at the heartstrings of over 500,000 moviegoers, making our program one of New York City’s favorite summer film series. Movies With A View takes place every Thursday evening in July and August. There is no better place to be on a hot summer night than watching a classic film and enjoying the breeze off of the East River from Harbor View Lawn with the dazzling Manhattan skyline before you , in this 2019 we are coming with great movies for all ages in diferents schedules We will be hosting around five thousand people so make sure you fill up the form to make sure you are coming
+						  ....<a href="#">Read More</a>
+					</p>
+					</article>
+					</div>
+			<section class="container">
+			<div class="row">
+				<section class="col-md-9">
+
+					<div class="container-3  post" id="film">
+					<div class="row">
+					<h1 style="text-align: center;">Monday 5th</h1>
+			<div class="col-md-3 " style="text-align: center; margin-left: 50px;">
+				<div class="card">
+  				<img src="https://images-na.ssl-images-amazon.com/images/I/51Q0R48W6PL._SX335_BO1,204,203,200_.jpg" alt="Denim Jeans" style="width:100%">
+  				<h4>Lion King</h4>
+  					<p><strong>From:</strong> 6:00 to 8:00pm</p>
+					</div>
+			</div>
+			<div class=" col-md-3 " style="text-align: center; margin-left: 50px;">
+				<div class="card">
+  				<img src="https://images-na.ssl-images-amazon.com/images/I/91O+Z+4UIIL._RI_.jpg" alt="Denim Jeans" style="width:100%">
+  				<h4>Beauty and the Beast</h4>
+  					<p><strong>From:</strong> 8:00 to 10:00pm</br></p>
+			</div>
+			</div>
+			<div class=" col-md-3" style="text-align: center; margin-left: 50px;">
+				<div class="card">
+  				<img src="https://images-na.ssl-images-amazon.com/images/I/618uZRUCKkL.jpg" alt="Denim Jeans" style="width:100%">
+  				<h4>Alice in Wonderland</h4>
+  					<p><strong>From:</strong> 10:00 to 12:00pm</p>
+  				<h4></h4>
+			</div>
+			</div>
+		</div>
+	</div>
+
+			<div class="container-3  post">
+					<div class="row">
+					<h1 style="text-align: center;">Tuesday 6th </h1>
+			<div class="col-md-3 " style="text-align: center; margin-left: 50px;">
+				<div class="card">
+  				<img src="https://images-na.ssl-images-amazon.com/images/I/91Dhsbu6naL._SY445_.jpg" alt="Denim Jeans" style="width:100%">
+  				<h4>World War Z</h4>
+  					<p><strong>From:</strong> 6:00 to 8:00pm</p>
+					</div>
+			</div>
+			<div class=" col-md-3 " style="text-align: center; margin-left: 50px;">
+				<div class="card">
+  				<img src="https://upload.wikimedia.org/wikipedia/en/a/aa/13_Going_on_30_film_poster.png" alt="Denim Jeans" style="width:100%">
+  				<h4>13 Goin to 30</h4>
+  					<p><strong>From:</strong> 8:00 to 10:00pm</br></p>
+			</div>
+			</div>
+			<div class=" col-md-3" style="text-align: center; margin-left: 50px;">
+				<div class="card">
+  				<img src="https://m.media-amazon.com/images/M/MV5BODk4NWI4ZDAtZDNmYy00Mjk3LTg2NDMtNDkxMmZiMDM1OTQzXkEyXkFqcGdeQXVyNTAyNDQ2NjI@._V1_.jpg" alt="Denim Jeans" style="width:100%">
+  				<h4>Regression</h4>
+  					<p><strong>From:</strong> 10:00 to 12:00pm</p>
+  				<h4></h4>
+			</div>
+			</div>
+		</div>
+	</div>
+
+		<div class="container-3  post">
+					<div class="row">
+					<h1 style="text-align: center;">Wenesday 7th </h1>
+			<div class="col-md-3 " style="text-align: center; margin-left: 50px;">
+				<div class="card">
+  				<img src="https://is1-ssl.mzstatic.com/image/thumb/Video3/v4/ef/53/23/ef5323eb-c36f-01ef-8b85-9b0b39448398/pr_source.lsr/268x0w.png" alt="Denim Jeans" style="width:100%">
+  				<h4>Sponge bob out of the water</h4>
+  					<p><strong>From:</strong> 6:00 to 8:00pm</p>
+					</div>
+			</div>
+			<div class=" col-md-3 " style="text-align: center; margin-left: 50px;">
+				<div class="card">
+  				<img src="https://upload.wikimedia.org/wikipedia/en/2/27/The_Incredibles_2.jpg" alt="Denim Jeans" style="width:100%">
+  				<h4>The Incredibles II</h4>
+  					<p><strong>From:</strong> 8:00 to 10:00pm</br></p>
+			</div>
+			</div>
+			<div class=" col-md-3" style="text-align: center; margin-left: 50px;">
+				<div class="card">
+  				<img src="https://is1-ssl.mzstatic.com/image/thumb/Video/v4/86/60/5d/86605da2-f38e-7fd2-eb47-fc8fd5e5125d/pr_source.lsr/268x0w.png" alt="Denim Jeans" style="width:100%">
+  				<h4>I am Legend</h4>
+  					<p><strong>From:</strong> 10:00 to 12:00pm</p>
+  				<h4></h4>
+			</div>
+			</div>
+		</div>
+	</div>
+
+			<div class="container-3  post">
+					<div class="row">
+					<h1 style="text-align: center;">Thursday 8th</h1>
+			<div class="col-md-3 " style="text-align: center; margin-left: 50px;">
+				<div class="card">
+  				<img src="https://is2-ssl.mzstatic.com/image/thumb/Video111/v4/f4/73/0b/f4730baa-3a96-d1fd-e6ed-dca568c3aed7/pr_source.lsr/268x0w.png" alt="Denim Jeans" style="width:100%">
+  				<h4>Moana</h4>
+  					<p><strong>From:</strong> 6:00 to 8:00pm</p>
+					</div>
+			</div>
+			<div class=" col-md-3 " style="text-align: center; margin-left: 50px;">
+				<div class="card">
+  				<img src="https://is2-ssl.mzstatic.com/image/thumb/Video60/v4/c1/a0/7f/c1a07fa4-0ec7-2c28-ba22-e813ab43a19f/pr_source.lsr/268x0w.png" alt="Denim Jeans" style="width:100%">
+  				<h4>Dead Pool</h4>
+  					<p><strong>From:</strong> 8:00 to 10:00pm</br></p>
+			</div>
+			</div>
+			<div class=" col-md-3" style="text-align: center; margin-left: 50px;">
+				<div class="card">
+  				<img src="https://www.virginmegastore.ae/medias/sys_master/root/h2a/hb1/8821200879646/Warm-Bodies-555409-Detail.jpg" alt="Denim Jeans" style="width:100%">
+  				<h4>Warm Bodies</h4>
+  					<p><strong>From:</strong> 10:00 to 12:00pm</p>
+  				<h4></h4>
+			</div>
+			</div>
+		</div>
+
+		</div>
+	</section>
+		<aside class=" col-xs-12 col-sm-6 col-md-3 ">
+	
+	<div class="container-2">
+				<div class="col-md-9">
+			<form style="margin-bottom: 15px;">
+				<legend style="text-align: center;"><strong>Formular</strong></legend>
+				<div class="form-group">
+					<strong>Name:</strong><input type="text" placeholder="Sam" class="form-control">
+				</div>
+				<div class="form-group">
+					<strong>Last-Name:</strong><input type="text" placeholder="Parker" class="form-control">
+				</div>
+				<div class="form-group">
+					<strong>E-mail:</strong><input type="text" placeholder="example@evample.com" class="form-control">
+				</div>
+				<div class="form-group">
+			<strong> Day:</strong> 
+			<select class="form-control"  >
+				<option>5th August</option>
+				<option>6th August</option>
+				<option>7th August</option>
+				<option>8th August</option>
+			</select>
+			</div>
+
+			<div class="form-group">
+			<strong>Time:</strong> 
+			<select class="form-control">
+				<option>6:00-8:00pm</option>
+				<option>8:00-10:00pm</option>
+				<option>10:00-12:00pm</option>
+			</select>
+		 </div>
+
+		 	<div class="form-group">
+			<strong>Number of persons:</strong>
+			<input type="number" name="quantity" min="1" max="*" class="form-control"  placeholder="How many of you are coming?">
+		</div>
+		 <div class="form-group boton">
+			<button type="submit" class="btn btn-primary" style="text-align: center;"><span class="glyphicon glyphicon-ok-sign" style="color: #4f4;" class=""></span> Send</button>
+			</div>
+			</form>
+			</div>
+			</div>
+			<!--<h1 style="margin-left: 60px;">News</h1>
+			<div class="list-group">
+				<a href="#" class="list-group-item active">Recent Movies</a>
+				<a href="#" class="list-group-item ">Movie Projects</a>
+				<a href="#" class="list-group-item ">International Films</a>
+				<a href="#" class="list-group-item ">Theather for kids</a>
+			</div>-->
+			<h2 style="text-align: center; margin-right: 40px;">Articles</h2>
+			<a href="#" class="list-group-item" style="margin-right: 10px; margin-left: 10px;">
+				<h4 class="list-group-item-heading" >August 5th</h4>
+				<p class="list-group-item-text">On  Monday we have a special funtion for the littles , at 6:00 comes a classic to remember the old good times , at 8:00 comes the Romantic movie that we all know Beauty and the beast with the Wonderfull Emma Watson , we all love her , to end the function at 10:00 we will showing off Alice in Wonderland , we  will be offering snacks like the well known pizza from New York , and many more stuff , dont miss it , bring your friends.</p>
+			</a>
+			<a href="#" class="list-group-item" style="margin-right: 10px; margin-left: 10px;">
+		<h4 class="list-group-item-heading"> August 6th</h4>
+		<p class="list-group-item-text">On Tuesday 6th we start the start the evening with a movie for all the zoombie lovers "War World Z" at 6:00pm , Then a movie for all the romantic people "13 Going on 30" , at 10:00 comes Regression with the Wonderfull Emma Watson , we all love Emma , come and have fun !!!</p>
+	</a>
+
+	<a href="#" class="list-group-item" style="margin-right: 10px; margin-left: 10px;">
+		<h4 class="list-group-item-heading">August 7th</h4>
+		<p class="list-group-item-text">We will start the function with our beloved Sponge Bob with his historical Movie "Sponge Bob out of the Water", Who does not love heroes , everyone does!! just because of that we will showing The Incredibles II at 8:00, to end the Function comes I am Legend for all the Zoombie fans , so dont miss it </p>
+	</a>
+
+	<a href="#" class="list-group-item" style="margin-right: 10px; margin-left: 10px;">
+		<h4 class="list-group-item-heading">August 8th</h4>
+		<p class="list-group-item-text">On our last day to say goodbye to Brooklyn we will showing at 6:00 a movie about a courage and brave girl "Moana ", at 8:00 comes Dead Pool an action movie to laugh , and our last function comes a movie for all the zoombie lovers and also for the romantic people "Warm bodies" dont miss it , come and joig us   </p>
+		</a>
+
+</aside>
+</section>
+<!--fixed footer-->
+<footer>
+<div class="navbar navbar-inverse navbar-static-bottom">
+	<div class="container-4" >
+		<div class="navbar-text pull-right">
+			<a href="https://es-la.facebook.com/"><i class="fab fa-facebook-square fa-2x" style="margin-right: 10px;"></i></a>
+			<a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square fa-2x" style="margin-right:10px;"></i></a>
+			<a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram fa-2x" style="margin-right: 10px;"></i></a>
+			<a href="#"><i class="fab fa-google-plus-square fa-2x" style="margin-right: 10px;"></i></a>
+		</div>
+	</div>
+</div>
+</footer>
+</body>
+</html>
