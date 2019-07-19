@@ -17,3 +17,5 @@ Budget
 Timeline
 Technical specifications (explanation of design and technical choices that were made)
 
+[Live Demo](../blob/master/index2.html)
+
