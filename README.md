@@ -16,3 +16,5 @@ Goals
 Budget
 Timeline
 Technical specifications (explanation of design and technical choices that were made)
+
+[Demo Live](./index2.html)
