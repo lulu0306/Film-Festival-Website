@@ -17,4 +17,4 @@ Budget
 Timeline
 Technical specifications (explanation of design and technical choices that were made)
 
-[Demo Live](./index2.html)
+[Demo Live](file:///C:/openclasroom/Projectos/projecto%203/projecto3/project%203/index2.html)
